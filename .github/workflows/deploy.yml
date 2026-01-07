@@ -28,9 +28,7 @@ jobs:
 
       - name: Create deployment archive
         run: |
-          cd .svelte-kit/output/client
-          tar -czf ../../../build.tar.gz .
-          cd ../../..
+          tar -czf build.tar.gz build
 
       - name: Deploy to server via SSH
         uses: appleboy/scp-action@v0.1.7

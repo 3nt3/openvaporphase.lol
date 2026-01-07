@@ -1,0 +1,7 @@
+@import 'tailwindcss';
+@plugin '@tailwindcss/typography';
+
+@theme {
+    --font-display: "PP Pangram Sans Rounded", sans-serif;
+    --font-body: "IBM Plex Sans", monospace;
+}

@@ -3,7 +3,7 @@
 </script>
 
 <main
-	class="bg-pink-300 w-full h-screen py-12 px-32 flex flex-col justify-between"
+	class="bg-pink-300 w-full h-screen py-12 px-12 lg:px-32 flex flex-col justify-between"
 >
 	<nav class="flex justify-center">
 		<ul class="flex gap-16 text-3xl text-white font-bold font-display">
@@ -21,7 +21,7 @@
 		</ul>
 	</nav>
 	<div class="mb-32">
-		<h1 class="text-[90pt] text-white font-bold leading-12 font-display">
+		<h1 class="lg:text-[90pt] text-7xl text-white font-bold lg:leading-12 leading-0 font-display">
 			Open <OpenHardwareLogo class="inline mb-[90pt] -ml-10"/> <br />
 			Vaporphase
 		</h1>

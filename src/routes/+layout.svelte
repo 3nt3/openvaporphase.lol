@@ -5,5 +5,6 @@
 </script>
 
 <svelte:head>
+	<title>Open Vaporphase</title>
 </svelte:head>
 {@render children()}
